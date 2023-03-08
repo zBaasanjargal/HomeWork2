@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GoGo Cargo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+img{
+  float: top;
+  float: right;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 95px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+<img src="C:\Users\CFA\Documents\gogo cargo.jpg" alt="GoGo Cargo" width="960" height="543">
+
+<html>
+<body>
+
+<h2>Хайх талбар</h2>
+
+<form action="/action_page.php">
+  <label for="gsearch">Хайх:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+</head>
+<body>
+
+<h2>GoGo Cargo</h2>
+
+<p>Та энэхүү вэб сайтаар өөрийнхөө захиалсан барааг ирсэн эсэхийг бар кодоор хайгаад харж болно.</p>
+<p>Мөн ирээд эзэнгүй хэдэн сар болж байгаа барааг өөрийнхөө бараа мөн эсэхийг тулгаж үзээрэй.</p>
+
+
+<header>
+  <h2>Заавар зөвлөмж</h2>
+</header>
+ <article>
+    <h1>Бараа хайх</h1>
+    <p>Search хэсэг дээр барааны кодыг оруулан таны бараа ирсэн эсэхийг хайж болно.</p>
+    <p>Мөн та тухайн хэсэг дээр өөрийн нэр эсвэл утасны дугаарыг оруулж таны бараа ирсэн эсэхийг шалгаж болох нь байна.</p>
+
+  </article>
+
+<section>
+  <nav>
+    <ul>
+      <p>Манай ажилчдын мэдээлэл:</p>
+      <li><a href="#">Баасанжаргал</a></li>
+      <li><a href="#">Батаа</a></li>
+      <li><a href="#">Muunchka</a></li>
+
+    </ul>
+  </nav>
+  
+ 
+</section>
+
+<footer>
+  <p>Манайхаар үйлчлүүлсэн таньд баярлалаа. Дараа дахин үйлчлүүлээрэй.</p>
+</footer>
+
+</body>
+</html>
+
